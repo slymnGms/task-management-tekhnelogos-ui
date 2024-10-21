@@ -1,0 +1,19 @@
+<h2>My Tasks</h2>
+<p-table [value]="tasks">
+    <ng-template pTemplate="header">
+        <tr>
+            <th>#</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Due Date</th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-task>
+        <tr>
+            <td>{{ task.taskId }}</td>
+            <td>{{ task.taskTitle }}</td>
+            <td>{{ task.taskDescription }}</td>
+            <td>{{ task.taskDueDate | date }}</td>
+        </tr>
+    </ng-template>
+</p-table>
