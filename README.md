@@ -19,7 +19,7 @@ This is the frontend for the Task Management system, built with **Angular** and 
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/task-management-frontend.git
+   git clone https://github.com/slymnGms/task-management-tekhnelogos-ui.git
    cd task-management-frontend
    ```
 
